@@ -1,6 +1,6 @@
 import random
 
-def return_list(data):
+def bubble_Sort(data):
 	for y in range(len(data)):
 		move_done = False
 		for x in range(len(data) - y - 1):
@@ -12,4 +12,4 @@ def return_list(data):
 	return data
 
 list = [random.randint(0, 1000) for x in range(100)]
-print("Sorted = "+ str(return_list(list)))
+print("Sorted = "+ str(bubble_Sort(list)))
