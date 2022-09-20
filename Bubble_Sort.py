@@ -12,4 +12,5 @@ def bubble_Sort(data):
 	return data
 
 list = [random.randint(0, 1000) for x in range(100)]
+print("Unsorted = " + str(list))
 print("Sorted = "+ str(bubble_Sort(list)))
